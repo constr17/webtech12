@@ -24,5 +24,7 @@ describe("Test index", function() {
         assert(cl.x === 3, "Attribute x exists")
         assert(typeof cl.add == "function", "add is function")
         assert(cl.add(2) === 5, "Function add work")
+        assert(cl.add(3) === 6, "Function add work")
+        assert(cl.add(4) === 7, "Function add work")
     })
 })
